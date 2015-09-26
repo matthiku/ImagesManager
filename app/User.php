@@ -42,7 +42,7 @@ class User extends Model implements AuthenticatableContract,
     // relationships
     public function albums()
     {
-        return hasMany('ImagesManager\Album');
+        return $this->hasMany('ImagesManager\Album');
     }
 
 }

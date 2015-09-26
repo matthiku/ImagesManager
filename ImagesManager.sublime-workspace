@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"us",
+				"user"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"Re",
+				"Requests	(PasswordRecoveryRequest.php)"
+			],
+			[
+				"ans",
+				"answer"
+			],
+			[
+				"requ",
+				"required|max:255	(AuthController.php)"
+			],
+			[
 				"We",
 				"WelcomeController@index"
 			],
@@ -72,10 +96,6 @@
 				"vehicleId"
 			],
 			[
-				"req",
-				"request〔function〕"
-			],
-			[
 				"ret",
 				"return〔keyword〕"
 			],
@@ -136,10 +156,6 @@
 				"title"
 			],
 			[
-				"p",
-				"pollOption"
-			],
-			[
 				"to",
 				"toDelete"
 			],
@@ -154,10 +170,6 @@
 			[
 				"Poll",
 				"PollDataSeeder"
-			],
-			[
-				"Re",
-				"Request"
 			],
 			[
 				"succes",
@@ -199,6 +211,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Http/Controllers/UserController.php",
+			"settings":
+			{
+				"buffer_size": 1574,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Requests/EditProfileRequest.php",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -213,7 +241,7 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: List Packages"
+				"Package Control: Install Package"
 			],
 			[
 				"Package Control: in",
@@ -243,24 +271,23 @@
 	[
 		"/C/wamp/www/courses/ImagesManager",
 		"/C/wamp/www/courses/ImagesManager/app",
-		"/C/wamp/www/courses/ImagesManager/app/Exceptions",
+		"/C/wamp/www/courses/ImagesManager/app/Http",
 		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers",
-		"/C/wamp/www/courses/ImagesManager/app/Http/Middleware",
-		"/C/wamp/www/courses/ImagesManager/bootstrap/cache",
-		"/C/wamp/www/courses/ImagesManager/database/seeds",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/Auth",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests",
 		"/C/wamp/www/courses/ImagesManager/resources",
-		"/C/wamp/www/courses/ImagesManager/resources/assets/sass",
-		"/C/wamp/www/courses/ImagesManager/resources/lang/en",
 		"/C/wamp/www/courses/ImagesManager/resources/views",
-		"/C/wamp/www/courses/ImagesManager/resources/views/errors",
-		"/C/wamp/www/courses/ImagesManager/storage/logs",
-		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate",
-		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation",
-		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Http",
-		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware"
+		"/C/wamp/www/courses/ImagesManager/resources/views/auth",
+		"/C/wamp/www/courses/ImagesManager/resources/views/user"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/UserController.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/PasswordRecoveryRequest.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/EditProfileRequest.php",
+		"/C/wamp/www/courses/ImagesManager/resources/views/user/edit-profile.blade.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/Auth/AuthController.php",
+		"/C/wamp/www/courses/ImagesManager/resources/views/auth/register.blade.php",
 		"/C/wamp/www/courses/ImagesManager/.env",
 		"/C/wamp/www/courses/ImagesManager/app/Exceptions/Handler.php",
 		"/C/wamp/www/courses/ImagesManager/resources/views/home.blade.php",
@@ -283,13 +310,11 @@
 		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/HomeController.php",
 		"/C/wamp/www/courses/ImagesManager/resources/views/errors/404.blade.php",
 		"/C/wamp/www/courses/ImagesManager/app/Http/routes.php",
-		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/Auth/AuthController.php",
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
 		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/PhotoController.php",
 		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/AlbumController.php",
-		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/UserController.php",
 		"/C/wamp/www/courses/ImagesManager/app/Photo.php",
 		"/C/wamp/www/courses/ImagesManager/app/User.php",
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
@@ -384,11 +409,7 @@
 		"/C/Users/matthiku/Dropbox/courses/library/app/User.php",
 		"/C/Users/matthiku/Dropbox/courses/library/database/seeds/BookTableSeeder.php",
 		"/C/Users/matthiku/Dropbox/courses/library/database/seeds/DatabaseSeeder.php",
-		"/C/Users/matthiku/Dropbox/courses/library/.env",
-		"/C/Users/matthiku/Dropbox/courses/library/config/database.php",
-		"/C/Users/matthiku/Dropbox/courses/library/database/seeds/UserTableSeeder.php",
-		"/C/Users/matthiku/Dropbox/courses/library/database/migrations/2015_09_15_145719_create_books_table.php",
-		"/C/Users/matthiku/Dropbox/courses/library/database/migrations/2015_09_15_144932_create_users_table.php"
+		"/C/Users/matthiku/Dropbox/courses/library/.env"
 	],
 	"find":
 	{
@@ -448,8 +469,69 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								927,
+								1422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Requests/EditProfileRequest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								683,
+								683
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -542,7 +624,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 170.0,
+	"side_bar_width": 247.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
