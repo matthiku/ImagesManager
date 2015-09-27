@@ -26,8 +26,8 @@ class AlbumTableSeeder extends Seeder {
 				Album::create
 				(
 					[
-						'title' => "Title album $i of $user->id",
-						'description' => "Description album $i of $user->id",
+						'title' => "Album $i of User id $user->id",
+						'description' => "Description album $i of User id $user->id",
 						'user_id' => $user->id
 					]
 				);

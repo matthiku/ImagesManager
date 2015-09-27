@@ -4,16 +4,92 @@
 		"selected_items":
 		[
 			[
+				"Pho",
+				"PhotoController"
+			],
+			[
+				"pho",
+				"photo"
+			],
+			[
+				"d",
+				"delete"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
 				"us",
-				"user"
+				"use"
+			],
+			[
+				"Del",
+				"DeleteAlbumRequest"
+			],
+			[
+				"al",
+				"album"
+			],
+			[
+				"albu",
+				"album_id"
+			],
+			[
+				"rea",
+				"realPath"
+			],
+			[
+				"ol",
+				"oldPath"
 			],
 			[
 				"p",
-				"password"
+				"path"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"E",
+				"EditPhotoRequest"
+			],
+			[
+				"A",
+				"Album	(AlbumController.php)"
+			],
+			[
+				"cr",
+				"createImage"
 			],
 			[
 				"req",
+				"required|exists:albums"
+			],
+			[
+				"get",
+				"getcwd"
+			],
+			[
+				"Req",
+				"Request"
+			],
+			[
+				"re",
 				"request"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"I",
+				"ImagesManager"
 			],
 			[
 				"Re",
@@ -104,14 +180,6 @@
 				"$maker〔variable〕"
 			],
 			[
-				"re",
-				"return"
-			],
-			[
-				"A",
-				"App〔namespace〕"
-			],
-			[
 				"mak",
 				"maker_id"
 			],
@@ -126,10 +194,6 @@
 			[
 				"Fa",
 				"Faker"
-			],
-			[
-				"th",
-				"$this〔variable〕"
 			],
 			[
 				"pub",
@@ -211,22 +275,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/Http/Controllers/UserController.php",
-			"settings":
-			{
-				"buffer_size": 1574,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Requests/EditProfileRequest.php",
-			"settings":
-			{
-				"buffer_size": 686,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -277,14 +325,39 @@
 		"/C/wamp/www/courses/ImagesManager/app/Http/Requests",
 		"/C/wamp/www/courses/ImagesManager/resources",
 		"/C/wamp/www/courses/ImagesManager/resources/views",
-		"/C/wamp/www/courses/ImagesManager/resources/views/auth",
-		"/C/wamp/www/courses/ImagesManager/resources/views/user"
+		"/C/wamp/www/courses/ImagesManager/resources/views/albums",
+		"/C/wamp/www/courses/ImagesManager/resources/views/errors",
+		"/C/wamp/www/courses/ImagesManager/resources/views/photos",
+		"/C/wamp/www/courses/ImagesManager/resources/views/user",
+		"/C/wamp/www/courses/ImagesManager/storage",
+		"/C/wamp/www/courses/ImagesManager/storage/logs"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/courses/ImagesManager/resources/views/albums/show.blade.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/AlbumController.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/DeleteAlbumRequest.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/PhotoController.php",
+		"/C/wamp/www/courses/ImagesManager/resources/views/photos/show.blade.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/DeletePhotoRequest.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/EditPhotoRequest.php",
+		"/C/wamp/www/courses/ImagesManager/resources/views/photos/edit-photo.blade.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/EditAlbumRequest.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/CreatePhotoRequest.php",
+		"/C/wamp/www/courses/ImagesManager/storage/logs/laravel.log",
+		"/C/wamp/www/courses/ImagesManager/resources/views/photos/create-photo.blade.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/CreateAlbumRequest.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/ShowPhotosRequest.php",
+		"/C/wamp/www/courses/ImagesManager/resources/views/albums/create-album.blade.php",
+		"/C/wamp/www/courses/ImagesManager/resources/views/albums/edit-album.blade.php",
+		"/C/wamp/www/courses/ImagesManager/config/app.php",
 		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/UserController.php",
-		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/PasswordRecoveryRequest.php",
+		"/C/wamp/www/courses/ImagesManager/app/Album.php",
+		"/C/wamp/www/courses/ImagesManager/database/seeds/AlbumTableSeeder.php",
+		"/C/wamp/www/courses/ImagesManager/app/User.php",
+		"/C/wamp/www/courses/ImagesManager/app/Photo.php",
 		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/EditProfileRequest.php",
+		"/C/wamp/www/courses/ImagesManager/app/Http/Requests/PasswordRecoveryRequest.php",
 		"/C/wamp/www/courses/ImagesManager/resources/views/user/edit-profile.blade.php",
 		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/Auth/AuthController.php",
 		"/C/wamp/www/courses/ImagesManager/resources/views/auth/register.blade.php",
@@ -301,7 +374,6 @@
 		"/C/wamp/www/courses/ImagesManager/app/Http/Middleware/RedirectIfAuthenticated.php",
 		"/C/wamp/www/courses/ImagesManager/database/seeds/DatabaseSeeder.php",
 		"/C/wamp/www/courses/ImagesManager/database/seeds/UserTableSeeder.php",
-		"/C/wamp/www/courses/ImagesManager/database/seeds/AlbumTableSeeder.php",
 		"/C/wamp/www/courses/ImagesManager/database/migrations/2015_09_25_110500_create_albums_table.php",
 		"/C/wamp/www/courses/ImagesManager/database/migrations/2015_09_25_110533_create_photos_table.php",
 		"/C/wamp/www/courses/ImagesManager/database/migrations/2014_10_12_000000_create_users_table.php",
@@ -313,12 +385,7 @@
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
-		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/PhotoController.php",
-		"/C/wamp/www/courses/ImagesManager/app/Http/Controllers/AlbumController.php",
-		"/C/wamp/www/courses/ImagesManager/app/Photo.php",
-		"/C/wamp/www/courses/ImagesManager/app/User.php",
 		"/C/wamp/www/courses/ImagesManager/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
-		"/C/wamp/www/courses/ImagesManager/app/Album.php",
 		"/C/wamp/www/courses/myOwnApi/vendor/league/oauth2-server/src/Exception/AccessDeniedException.php",
 		"/C/wamp/www/courses/myOwnApi/app/Http/Kernel.php",
 		"/C/wamp/www/courses/myOwnApi/vendor/lucadegasperi/oauth2-server-laravel/src/Middleware/OAuthUserOwnerMiddleware.php",
@@ -394,22 +461,7 @@
 		"/C/wamp/www/courses/blog50/app/config/database.php",
 		"/C/Users/matthiku/Dropbox/courses/library/app/Http/Controllers/Auth/AuthController.php",
 		"/C/Users/matthiku/Dropbox/courses/library/app/Http/routes.php",
-		"/C/Users/matthiku/Dropbox/courses/library/app/Http/Middleware/RedirectIfAuthenticated.php",
-		"/C/Users/matthiku/Dropbox/courses/library/app/Http/Middleware/Authenticate.php",
-		"/C/Users/matthiku/Dropbox/courses/library/resources/views/home.blade.php",
-		"/C/Users/matthiku/Dropbox/courses/library/resources/views/layout/main.blade.php",
-		"/C/Users/matthiku/Dropbox/courses/library/app/Http/Controllers/UserController.php",
-		"/C/Users/matthiku/Dropbox/courses/library/resources/views/auth/login.blade.php",
-		"/C/Users/matthiku/Dropbox/courses/library/resources/views/auth/register.blade.php",
-		"/C/Users/matthiku/Dropbox/courses/library/config/app.php",
-		"/C/Users/matthiku/Dropbox/courses/library/storage/framework/views/7bb3ad605cfc00f01b398fb80fe051c0",
-		"/C/Users/matthiku/Dropbox/courses/library/resources/views/layout/master.blade.php",
-		"/C/Users/matthiku/Dropbox/courses/library/composer.json",
-		"/C/Users/matthiku/Dropbox/courses/library/app/Book.php",
-		"/C/Users/matthiku/Dropbox/courses/library/app/User.php",
-		"/C/Users/matthiku/Dropbox/courses/library/database/seeds/BookTableSeeder.php",
-		"/C/Users/matthiku/Dropbox/courses/library/database/seeds/DatabaseSeeder.php",
-		"/C/Users/matthiku/Dropbox/courses/library/.env"
+		"/C/Users/matthiku/Dropbox/courses/library/app/Http/Middleware/RedirectIfAuthenticated.php"
 	],
 	"find":
 	{
@@ -427,6 +479,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"photos",
+			"6",
+			"4",
+			"CreatePhotosRequest",
 			"user",
 			"Album",
 			"];",
@@ -469,69 +525,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/Http/Controllers/UserController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								927,
-								1422
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 285.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Requests/EditProfileRequest.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								683,
-								683
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -22,7 +22,7 @@ class Album extends Model
     // relationships
     public function photos()
     {
-        return hasMany('ImagesManager\Photo');
+        return $this->hasMany('ImagesManager\Photo');
     }
 
 }
